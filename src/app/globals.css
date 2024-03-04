@@ -18,12 +18,9 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
+  background: linear-gradient(to bottom,
       transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+      rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
 }
 
 @layer utilities {
@@ -32,29 +29,29 @@ body {
   }
 }
 
- * {
+* {
   scrollbar-width: auto;
   scrollbar-color: #000000 #ffffff00;
 }
 
 /* Chrome, Edge, and Safari */
- *::-webkit-scrollbar {
+*::-webkit-scrollbar {
   width: 1px;
 }
 
 *::-webkit-scrollbar-track {
   background: #ffffff00;
-} 
+}
 
- *::-webkit-scrollbar-thumb {
+*::-webkit-scrollbar-thumb {
   background-color: #000000e8;
   border-radius: 1px;
   border: 2px solid #80ed9900;
   visibility: hidden;
-} 
+}
 
 *:active::-webkit-scrollbar-thumb,
 *:focus::-webkit-scrollbar-thumb,
 *:hover::-webkit-scrollbar-thumb {
   visibility: visible;
-} 
+}
