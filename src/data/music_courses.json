@@ -99,6 +99,26 @@
             "instructor": "Ethan Moore",
             "isFeatured": true,
             "image": "/courses/blues.jpg"
+        },
+        {
+            "id": 11,
+            "title": "Bass Guitar Foundations",
+            "slug": "bass-guitar-foundations",
+            "description": "Dive into the world of bass guitar with this foundational course, perfect for beginners looking to master the low-end groove.",
+            "price": 199.99,
+            "instructor": "Olivia Davis",
+            "isFeatured": true,
+            "image": "/courses/bass-guitar.jpg"
+        },
+        {
+            "id": 12,
+            "title": "Ukulele for All Ages",
+            "slug": " ukulele-for-all-ages",
+            "description": "Unleash your inner musician with the ukulele! This course is suitable for all ages, teaching basic chords and melodies.",
+            "price": 79.99,
+            "instructor": "Liam Johnson",
+            "isFeatured": false,
+            "image": "/courses/ukulele.jpg"
         }
     ]
 }
